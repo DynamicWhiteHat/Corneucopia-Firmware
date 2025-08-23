@@ -1,4 +1,4 @@
-#include corneucopia.dtsi
+#include "corneucopia.dtsi"
 
 &default_transform {
     col-offset = <6>;
