@@ -39,9 +39,11 @@
 
         >;
     };
-    &physical_layout0 {
+    
+    
+};
+
+&physical_layout0 {
     kscan = <&default_kscan>;
     transform = <&default_transform>;
     };
-    
-};
