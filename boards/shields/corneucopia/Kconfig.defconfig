@@ -1,4 +1,4 @@
-if SHIELD_corneucopia_left
+if SHIELD_CORNEUCOPIA_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Corneucopia"
