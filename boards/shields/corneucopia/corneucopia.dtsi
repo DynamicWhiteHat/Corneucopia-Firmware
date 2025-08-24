@@ -1,4 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "my_keyboard-layouts.dtsi"
+
 
 / {
     chosen {
@@ -37,11 +39,9 @@
 
         >;
     };
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        kscan = <&default_kscan>;
-        transform = <&default_transform>;
+    &physical_layout0 {
+    kscan = <&default_kscan>;
+    transform = <&default_transform>;
     };
     
 };
