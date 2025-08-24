@@ -1,4 +1,4 @@
-config SHIELD_corneucopiaLeft
-    def_bool $(shields_list_contains,corneucopiaLeft)
-config SHIELD_corneucopiaRight
-    def_bool $(shields_list_contains,corneucopiaRight)
+config SHIELD_CORNEUCOPIA_LEFT
+    def_bool $(shields_list_contains,corneucopia_left)
+config SHIELD_CORNEUCOPIA_RIGHT
+    def_bool $(shields_list_contains,corneucopia_right)

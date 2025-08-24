@@ -1,4 +1,4 @@
-if SHIELD_corneucopiaLeft
+if SHIELD_corneucopia_left
 
 config ZMK_KEYBOARD_NAME
     default "Corneucopia"
@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_corneucopiaLeft || SHIELD_corneucopiaRight
+if SHIELD_CORNEUCOPIA_LEFT || SHIELD_CORNEUCOPIA_RIGHT
 
 config ZMK_SPLIT
     default y
