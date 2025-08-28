@@ -39,7 +39,7 @@
                          LED_COLOR_ID_BLUE>;
     };
 };
-
+/*
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -65,7 +65,7 @@ nice_view_spi: &spi0 {
     pinctrl-names = "default", "sleep";
     cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
 };
-
+*/
 / {
     chosen {
         zmk,underglow = &led_strip;
